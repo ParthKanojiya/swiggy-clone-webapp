@@ -14,7 +14,8 @@
     margin-top: 7rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid var(--color-grey-black);
-    & > div {
+
+    &>div {
       display: flex;
       align-items: flex-start;
       justify-content: center;
@@ -29,6 +30,7 @@
         font-weight: 600;
         margin-bottom: 2rem;
       }
+
       a {
         font-size: 1.7rem;
         color: var(--color-dark-grey);
@@ -48,15 +50,24 @@
     img {
       height: 50px;
     }
+
     .copy {
       font-size: 1.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      flex-wrap: wrap;
+      text-align: center;
     }
+
     .socials {
       font-size: 2rem;
       display: flex;
       align-items: center;
       justify-content: flex-end;
       gap: 2rem;
+
       a {
         .icon {
           color: #fff;
@@ -76,6 +87,7 @@
     }
   }
 }
+
 @media screen and (max-width: 890px) {
   .footer-wrapper {
     .top {
@@ -83,16 +95,19 @@
       align-items: center;
       gap: 3rem;
 
-      & > div {
+      &>div {
         align-items: center;
+
         .title {
           margin-bottom: 1rem;
         }
+
         a {
           text-align: center;
         }
       }
     }
+
     .footer {
       height: 200px;
       flex-direction: column;

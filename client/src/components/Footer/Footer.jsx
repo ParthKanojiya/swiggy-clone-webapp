@@ -72,20 +72,20 @@ const Footer = () => {
               textAlign: 'center',
               padding: '5px 0',
             }}>
-            by ViveK
+            by Parth Kanojiya
           </div>
         </div>
         <div className="socials">
-          <Link to={'https://twitter.com/V1V3K__'} target="_blank">
+          <Link to={'https://twitter.com/'} target="_blank">
             <FaTwitter className="icon" />
           </Link>
-          <Link to={'https://www.linkedin.com/in/vivek9999/'} target="_blank">
+          <Link to={'https://www.linkedin.com/in//'} target="_blank">
             <FaLinkedinIn className="icon" />
           </Link>
-          <Link to={'https://instagram.com/ig_v1v3k'} target="_blank">
+          <Link to={'https://instagram.com/'} target="_blank">
             <FaInstagram className="icon" />
           </Link>
-          <Link to={'https://github.com/GitsOfVivek'} target="_blank">
+          <Link to={'https://github.com/'} target="_blank">
             <FaGithub className="icon" />
           </Link>
         </div>

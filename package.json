@@ -6,7 +6,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Vivek Kumar",
+  "author": "Parth Kanojiya",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

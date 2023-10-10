@@ -16,6 +16,7 @@
 		height: 350px;
 		width: 100%;
 		position: relative;
+
 		.prev,
 		.next {
 			position: absolute;
@@ -37,6 +38,7 @@
 		.prev {
 			left: 15%;
 			transform: translateX(-50%);
+
 			.icon {
 				transition: all 0.2s ease-in-out;
 			}
@@ -51,6 +53,7 @@
 		.next {
 			right: 15%;
 			transform: translateX(50%);
+
 			.icon {
 				transition: all 0.2s ease-in-out;
 			}
@@ -70,6 +73,7 @@
 			align-items: center;
 			justify-content: space-evenly;
 			overflow: hidden;
+			gap: 1rem;
 
 			img {
 				width: 260px;
@@ -77,6 +81,7 @@
 				border-radius: 2px;
 				cursor: pointer;
 				transition: transform 0.2s ease-in-out;
+
 				&:hover {
 					transform: scale(1.05);
 				}
@@ -86,6 +91,7 @@
 		.animation-left {
 			animation: leftAnimate 0.4s ease-out;
 		}
+
 		.animation-right {
 			animation: rightAnimate 0.4s ease-out;
 		}
@@ -96,30 +102,36 @@
 		align-items: center;
 		justify-content: center;
 		margin-top: 3rem;
+
 		img {
 			height: 100%;
 			width: 100%;
 		}
 	}
 }
+
 @media screen and (max-width: 1500px) {
 	.carousel-wrapper {
 		background: #fff;
 		width: 70%;
 		margin: auto;
+
 		.carousel {
 			display: none;
 		}
+
 		.all-res {
 			display: flex;
 		}
 	}
 }
+
 @media screen and (max-width: 1300px) {
 	.carousel-wrapper {
 		width: 80%;
 	}
 }
+
 @media screen and (max-width: 865px) {
 	.carousel-wrapper {
 		width: 90%;
@@ -130,14 +142,17 @@
 	from {
 		transform: translateX(0);
 	}
+
 	to {
 		transform: translateX(-320px);
 	}
 }
+
 @keyframes rightAnimate {
 	from {
 		transform: translateX(0);
 	}
+
 	to {
 		transform: translateX(320px);
 	}
