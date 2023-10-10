@@ -1,6 +1,6 @@
 # Swiggy Clone - _React App_
 
--   App Demo Link : **_[Swiggy Clone](https://swiggy-vivek.vercel.app/)_**
+-   App Demo Link : **_[Swiggy Clone](https://swiggy-clone-web-app.netlify.app/)_**
 
 ## Features
 
